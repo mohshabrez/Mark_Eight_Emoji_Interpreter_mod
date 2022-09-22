@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: auto;
+}
+
+input {
+  border: 20px;
+  border-radius: 0.2rem;
+  border-color: blue;
+  padding: 2px;
+  margin: 0.2rem;
+}
+
+.emojisWeKnow {
+  display: flex;
+  gap: 10px;
+}
+
+span {
+  cursor: pointer;
+}
+
+.App {
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+}
+
+h1 {
+  font-size: larger;
+  color: var(--primary_bg_color);
+}
+h2 {
+  color: var(--secondary_bg_color);
+}
+:root {
+  --primary_bg_color: #e74591;
+  --secondary_bg_color: cadetblue;
+}
+
+/* h1 {
+  background-color: var(--secondary_bg_color);
+} */
